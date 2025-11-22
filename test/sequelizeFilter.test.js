@@ -27,7 +27,7 @@ const Op = {
     or: Symbol.for('or')
 };
 
-const { parseSQLFilter } = require('./filter.utils');
+const { parseSQLFilter } = require('../utils/filter.utils');
 
 console.log('=== Sequelize Filter Conversion Tests ===\n');
 

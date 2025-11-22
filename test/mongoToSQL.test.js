@@ -3,7 +3,7 @@
  * Run with: node utils/mongoToSQL.test.js
  */
 
-const { convertMongoFilterToSQL } = require('./mongoToSQL.utils');
+const { convertMongoFilterToSQL } = require('../utils/mongoToSQL.utils');
 
 console.log('=== MongoDB to SQL Filter Converter Tests ===\n');
 
