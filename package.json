@@ -21,5 +21,8 @@
   "homepage": "https://github.com/datanimbus/omni-crudder#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "sequelize": "^6.0.0"
   }
 }

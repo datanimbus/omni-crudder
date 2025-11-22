@@ -20,3 +20,9 @@ function OmniCrudder(dialect, model, options) {
  * @type {OmniCrudder}
  */
 exports = module.exports = OmniCrudder;
+
+/**
+ * Utility to convert MongoDB filter syntax to SQL WHERE clause
+ * @type {Object}
+ */
+module.exports.convertMongoFilterToSQL = require('./utils/mongoToSQL.utils').convertMongoFilterToSQL;
