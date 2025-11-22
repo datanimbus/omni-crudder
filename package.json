@@ -1,0 +1,25 @@
+{
+  "name": "omni-crudder",
+  "version": "1.0.0",
+  "description": "A Library to provide crud methods for Express.js over MongoDB,PostgreDB,MySQLDB and OracleDB",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datanimbus/omni-crudder.git"
+  },
+  "author": "Jugnu Agrawal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datanimbus/omni-crudder/issues"
+  },
+  "homepage": "https://github.com/datanimbus/omni-crudder#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
