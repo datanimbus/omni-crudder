@@ -1,5 +1,5 @@
 const MongooseCrudder = require('./lib/mongoose.crud');
-const SequaliseCrudder = require('./lib/sequalise.crud');
+const SequelizeCrudder = require('./lib/sequelize.crud');
 
 function OmniCrudder(dialect, model, options) {
     this.dialect = dialect;
@@ -9,7 +9,7 @@ function OmniCrudder(dialect, model, options) {
     if (this.dialect === 'mongodb') {
         this.crudder = new MongooseCrudder(this.model, this.options);
     } else if (this.dialect !== 'mongodb') {
-        this.crudder = new SequaliseCrudder(this.model, this.options);
+        this.crudder = new SequelizeCrudder(this.model, this.options);
     }
 
     return this.crudder;
